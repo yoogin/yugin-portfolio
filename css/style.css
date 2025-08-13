@@ -272,9 +272,9 @@ width: 100%; display: flex; flex-wrap: nowrap; justify-content: center;}
 .workIntro .inner ul.sub li:nth-child(1) {position: absolute; top: 24%; right: 74%;}
 .workIntro .inner ul.sub li:nth-child(2) {position: absolute; top: 43%; right: 11%;}
 .workIntro .inner ul.sub li:nth-child(3) {position: absolute; top: 63%; right: 55%;}
-.workIntro .inner ul.sub li:nth-child(1) .subtit.clone {background: #B3C2FF; color: #fff;}
-.workIntro .inner ul.sub li:nth-child(2) .subtit.clone {background: #F4A8D0; color: #fff;}
-.workIntro .inner ul.sub li:nth-child(3) .subtit.clone { color: #fff;}
+.workIntro .inner ul.sub li:nth-child(1) .subtit.word {background: #B3C2FF; color: #fff;}
+.workIntro .inner ul.sub li:nth-child(2) .subtit.word {background: #F4A8D0; color: #fff;}
+.workIntro .inner ul.sub li:nth-child(3) .subtit.word { color: #fff;}
 .workIntro .inner ul.sub li:nth-child(1) .flower {position: absolute; top: -40%; right: 87%;}
 .workIntro .inner ul.sub li:nth-child(2) .flower {position: absolute; top: -38%; right: -3%;}
 .workIntro .inner ul.sub li:nth-child(3) .flower {position: absolute; top: 61%; right: -12%;}
@@ -333,6 +333,7 @@ width: 100%; display: flex; flex-wrap: nowrap; justify-content: center;}
     .work1 img {border-radius: 35px;}
     .work1 img.skill {border-radius: 0px; display: inline-block;}
     .work1 .inner .topBox .plan {position: absolute; top: 2%; right: 1%; border: 1px solid #000; padding: 10px 30px; border-radius: 50px; background: #FBF7F4; z-index: 10; display: flex; justify-content: center; align-items: center;}
+    .work1 .inner .topBox .plan a {display: flex;justify-content: center; align-items: center;}
 .work1 .inner .topBox .plan p {font-size: 23px;}
 .work1 .inner .topBox .plan .arrow {padding-left: 5px;}
 
@@ -535,13 +536,30 @@ width: 100%; display: flex; flex-wrap: nowrap; justify-content: center;}
 .work3 .workImg8 .inside img {width: 100%; height: 100%;}
 
 /* cloneIntro */
-.cloneIntro {height: 105vh;}
+.cloneIntro {height: 120vh;}
 .cloneIntro .all {position: relative;}
 .cloneIntro .all .img {width: 100%;}
 .cloneIntro .all .img img {width: 100%; height: 100%;}
 .cloneIntro .all .stic {position: absolute; top: 50%; right: 63%;}
 .cloneIntro .all .stic img {width: 100%; height: 100%;}
-.cloneIntro .all .textBox {border: 1px solid #000; display: inline-block; padding: 16px 20px; background: #FBF7F4; border-radius: 20px;
-}
-.cloneIntro .all .textBox .txt {width: 100%; display: block;
-}
+.cloneIntro .all .textBox {border: 1px solid #000; display: inline-block; padding: 16px 20px; background: #FBF7F4; border-radius: 20px;}
+.cloneIntro .all .textBox .txt {width: 100%; display: block;}
+.cloneIntro .all .textBox:nth-child(2) {position: absolute; top: 25%; right: 58%; background: #F9DBE9;}
+.cloneIntro .all .textBox:nth-child(3) {position: absolute; top: 54%; right: 21%; background: #F2A8CE;}
+
+/* clone */
+.clone {height: 400vh;}
+.clone .coding.ystudio {position: relative;}
+.clone .coding.ystudio .img {display: flex; justify-content: center; margin-left: 18%;}
+.clone .coding.ystudio .line {width: 28%; position: absolute; top: 51%; right: 55%;}
+.clone .coding.happiert {position: relative;}
+.clone .coding.happiert .img {display: flex; justify-content: left; margin: 8% 0 0 12%;}
+.clone .coding.happiert .line {width: 28%; position: absolute; top: 51%; right: 34%;}
+.clone .coding.deabang {position: relative;}
+.clone .coding.deabang .img {display: flex; justify-content: center; margin: 4% 6% 0 0;}
+.clone .coding.deabang .line {width: 28%; position: absolute; top: 51%; right: 61%; transform: rotate(-34deg);}
+.clone .coding.crewala {position: relative;}
+.clone .coding.crewala .img {display: flex; justify-content: left; margin: 13% 0 0 18%;}
+.clone .coding.crewala .line {width: 28%; position: absolute; top: 76%; right: 16%;}
+.clone .coding.musign {position: relative;}
+.clone .coding.musign .img {display: flex; justify-content: left; margin: 3% 0 0 10%;}
